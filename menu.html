@@ -1,0 +1,351 @@
+<html>
+
+<head>
+    <title>home page</title>
+    <style>
+        {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: lucia fax;
+        }
+
+        form.example input[type=text] {
+            padding: 10px;
+            font-size: 17px;
+            border: 17px;
+            float: left;
+            width: 80%;
+            background: white;
+        }
+
+        form.example button {
+            float: left;
+            width: 20%;
+            padding: 19px;
+            background: blue;
+            color: white;
+            font-size: 17px;
+            border: 1px solid grey;
+            border-left: none;
+            cursor: pointer;
+        }
+
+        form.example button:hover {
+            background: green;
+        }
+
+        form.example::after {
+            content: normal;
+            clear: both;
+            display: table;
+        }
+
+
+
+        .header {
+            padding: 10px;
+            text-align: center;
+            background: brown;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 40px;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: black;
+
+        }
+
+        .topnav a {
+            float: left;
+            display: ruby-base-container;
+            color: white;
+            text-align: center;
+            padding: 30px 30px;
+            text-decoration: none;
+            font-size: 30px;
+        }
+
+        .topnav a.right {
+            float: right;
+        }
+
+
+        .topnav a:hover {
+            background-color: grey;
+            color: red;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .column {
+            flex: 33%;
+            text-align: left;
+        }
+
+
+        .side {
+            flex: 30%;
+            background-color: bisque;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .fakeimg {
+            background-color: black;
+            scroll-padding: 100px;
+            max-height: fit-content;
+
+        }
+
+
+
+        .main {
+            text-align: center;
+            font-weight: 10%;
+            height: 67%;
+            background-color: bisque;
+
+        }
+
+        .footer {
+            padding: 10px;
+            background: brown;
+            text-align: left;
+        }
+
+        .icon-bar {
+            width: 250px;
+            background-color: brown;
+            overflow: auto;
+        }
+
+        .icon-bar a {
+            float: right;
+            width: 250px;
+            text-align: right;
+            padding: 20px 0;
+            color: rgb(3, 3, 3);
+            font-size: 20px;
+        }
+
+        .icon-bar a:however {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body bgcolor="bisque">
+    <div class="header">
+        <img src="r19.jpg" height="100px" width="100px">
+        <h1>Chanana & Rawat sweet house</h1>
+    </div>
+    <div class="topnav">
+        <a class="active" href=home.html>home</a>
+        <a href=about.html>about</a>
+        <a href=menu.html>menu</a>
+        <a href=service.html>services</a>
+        <a href=contact.html>contact</a>
+        <a href="#" class="right">
+            <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+                <input type="text" placeholder="Search.." name="search2">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </a>
+    </div>
+
+    <div class="main">
+        <p>
+            <font size="100%" color:"red">MENU</font>
+        </p>
+
+        <table border="4" cellpadding="0px" cellspaing="10px">
+            <tr>
+                <th>
+                    <font size="20%">sweets</font>
+                </th>
+                <th>
+                    <font size="20%">price</font>
+                </th>
+                <th>
+                    <font size="20%">sweet</font>
+                </th>
+                <th>
+                    <font size="20%">price</font>
+                </th>
+            </tr>
+    </div>
+    <tr>
+        <td>
+            <img src="p1.jpg" width="400px" height="400px">
+        </td>
+        <td>
+            <font size="20%">Almond masoor </font><br>
+            <font size="20%">Rs 100 </font>
+        </td>
+        <td><img src="p2.jpg" width="400px" height="400px"></td>
+        <td>
+            <font size="20%">Anjir pak </font><br>
+            <font size="20%">Rs 200 </font>
+        </td>
+    </tr>
+    <tr>
+        <td><img src=" p3.jpg" width="400px" height="400px">
+        </td>
+        <td>
+            <font size="20%">Bundi ladoo </font><br>
+            <font size="20%">Rs 50 </font>
+        </td>
+        <td><img src="p4.jpg" width="400px" height="400px"></td>
+        <td>
+            <font size="20%">Chocolate barfi </font><br>
+            <font size="20%">Rs 200 </font>
+        </td>
+    </tr>
+    <tr>
+        <td><img src="p5.jpg" width="400px" height="400px"></td>
+        <td>
+            <font size="20%">Choorma ladoo </font><br>
+            <font size="20%">Rs 70 </font>
+        </td>
+        <td><img src="p6.jpg" width="400px" height="400px"></td>
+        <td>
+            <font size="20%">Green Coconut Barfi </font><br>
+            <font size="20%">Rs 150 </font>
+        </td>
+    </tr>
+    <tr>
+        <td><img src="p7.jpg" width="400px" height="400px"></td>
+        <td>
+            <font size="20%">Gulab jamun </font><br>
+            <font size="20%">Rs 80 </font>
+        </td>
+        <td><img src="p8.jpg" width="400px" height="400px"></td>
+        <td>
+            <font size="20%">Jalebi </font><br>
+            <font size="20%">Rs 50 </font>
+        </td>
+    </tr>
+    <tr>
+        <td><img src="p9.jpg" width="400px" height="400px"></td>
+        <td>
+            <font size="20%">kaju katli </font><br>
+            <font size="20%">Rs 200 </font>
+        </td>
+        <td><img src="p10.jpg" width="400px" height="400px"></td>
+        <td>
+            <font size="20%">kaju Roll </font><br>
+            <font size="20%">Rs 200 </font>
+        </td>
+    </tr>
+    <tr>
+        <td><img src="p11.jpg" width="400px" height="400px"></td>
+        <td>
+            <font size="20%">Marble Pak </font><br>
+            <font size="20%">Rs 250</font>
+        </td>
+        <td><img src="p12.jpg" width="400px" height="400px"></td>
+        <td>
+            <font size="20%">Mawa Peda</font><br>
+            <font size="20%">Rs 150 </font>
+        </td>
+    </tr>
+    <tr>
+        <td><img src="p13.jpg" width="400px" height="400px"></td>
+        <td>
+            <font size="20%">Mesoor</font><br>
+            <font size="20%">Rs 100 </font>
+        </td>
+        <td><img src="p14.jpg" width="400px" height="400px"></td>
+        <td>
+            <font size="20%">Mix Sweet Box</font><br>
+            <font size="20%">Rs 400 </font>
+        </td>
+    </tr>
+    <tr>
+        <td><img src="p15.jpg" width="400px" height="400px"></td>
+        <td>
+            <font size="20%">Mugaj</font><br>
+            <font size="20%">Rs 350 </font>
+        </td>
+        <td><img src="p16.jpg" width="400px" height="400px"></td>
+        <td>
+            <font size="20%">Pista Barfi</font><br>
+            <font size="20%">Rs 200</font>
+        </td>
+    </tr>
+    <tr>
+        <td><img src="p17.jpg" width="400px" height="400px"></td>
+        <td>
+            <font size="20%">White Barfi </font><br>
+            <font size="20%">Rs 200 </font>
+        </td>
+        <td><img src="p18.jpg" width="400px" height="400px"></td>
+        <td>
+            <font size="20%">Yellow Peda </font><br>
+            <font size="20%">Rs 350</font>
+        </td>
+    </tr>
+    <tr>
+        <td><img src="p19.jpg" width="400px" height="400px"></td>
+        <td>
+            <font size="20%">White Peda </font><br>
+            <font size="20%">Rs 250 </font>
+        </td>
+        <td><img src="p20.jpg" width="400px" height="400px"></td>
+        <td>
+            <font size="20%">Sweet Bundi </font><br>
+            <font size="20%">Rs 250</font>
+        </td>
+    </tr>
+    </table>
+    <div class="footer">
+        <div class="row">
+            <div class="column">
+                <h1>address:</h1>
+                <h2>8 melton road,leicester,leicestershire le4 5ea</h2>
+                <h2>ph no:011 62 661 066</h2>
+                <h2>321 st saviours road,leicester,leicestershire le5 4h5</h2>
+                <h2>ph no:01 162 7380 88</h2>
+                <h2>e-mail@sweetshop.com </h2>
+            </div>
+
+            <div class="column">
+                <h1>opening hours:</h1>
+                <h2>monday :closed</h2>
+                <h2>tuesday-saturday :9:00am to 7:00pm</h2>
+                <h2>saturday :8:30am to 7:00pm</h2>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="column">
+                <h1>site designed and developed by ts2</h1>
+            </div>
+            <div class="column">
+                <div class="icon-bar">
+                    <h1>follow us on</h1>
+                    <img src="twitter.png" height="40px" width="40px">
+                    <img src="instagram.png" height="40px" width="40px">
+                    <img src="facebook.png" height="40px" width="40px">
+
+                    <img src="whatsapp.png" height="40px" width="40px">
+
+
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
